@@ -1,0 +1,23 @@
+{
+  "name": "surveyurl",
+  "version": "1.0.0",
+  "description": "survey url",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest.js",
+    "dev": "nodemon src/index.js",
+    "prod": "node src/index.js"
+  },
+  "author": "krishan kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.1.2",
+    "mongoose": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
